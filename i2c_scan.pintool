@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32MG24B210F1536IM48" partId="mcu.arm.efr32.mg24.efr32mg24b210f1536im48" contextId="com.silabs.sdk.stack.super:4.2.3._-1596418234">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="EUSART1" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_MIKROE%T%sl_iostream_eusart_mikroe_config.h"/>
+    <property object="EUSART1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="I2C0" propertyId="ABModule.selectedRequirement" value="i2c%T%SL_I2CSPM_INST0%T%sl_i2cspm_inst0_config.h"/>
+    <property object="I2C0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="I2C1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.cs" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.cts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.rts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.sclk" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.cs" value="32"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.cts" value="9"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.rts" value="8"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.rx" value="53"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.sclk" value="33"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.tx" value="34"/>
+    <property object="PORTIO" propertyId="portio.i2c0.enable.scl" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c0.enable.sda" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c0.location.scl" value="20"/>
+    <property object="PORTIO" propertyId="portio.i2c0.location.sda" value="21"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.rx" value="6"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.tx" value="5"/>
+    <property object="USART0" propertyId="ABModule.selectedRequirement" value="usart%T%SL_IOSTREAM_USART_VCOM%T%sl_iostream_usart_vcom_config.h"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
